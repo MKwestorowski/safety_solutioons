@@ -17,6 +17,12 @@ body {
 }
 
 
+.main {
+    background-image: url("./images/pexels-photo-333837.jpeg");
+    background-size: cover;
+}
+
+
 
 
 /* Arrow*/
@@ -49,13 +55,19 @@ a {
 
 @media (min-width: 576px) {
     .arrow-top-space {
-        padding-top: 160px;
+        padding-top: 140px;
     }
 }
 
 @media (min-width: 768px) {
     .arrow-top-space {
-        padding-top: 300px;
+        padding-top: 280px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .arrow-top-space {
+        padding-top: 590px;
     }
 }
 /* End of arrow*/
