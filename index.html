@@ -17,76 +17,70 @@
 
 
 <section class="main">
+  <div class="homepage-hero-module">
     <img class="logo col-6 col-sm-6 col-md-6 col-lg-6 col-xl-5 content-center" src='./images/logo.png' alt="">
-    <div class="arrow bounce content-center col-8 col-sm-8 col-md-8 col-lg-8 col-xl-2 arrow-top-space">
-      <p class="hidden-lg-up">Learn what we do</p>
-      <a class="fa fa-arrow-down fa-2x col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 content-center" href="#"></a>
+    <div class="video-container">
+
+      <div class="filter"></div>
+      <video autoplay loop class="fillWidth">
+        <source src="./backgroundVideo/discussing_features.mp4" type="video/mp4"/>
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+        <source src="./backgroundVideo/discussing_features.webm" type="video/webm"/>
+        Your browser does not support the video tag. I suggest you upgrade your browser.
+      </video>
+      <div class="poster hidden">
+        <img src="./backgroundVideo/discussing_features.jpg" alt="">
+      </div>
     </div>
-</section>
-
-<section class="who-we-are">
-  <div class="container-fluid">
-<h1 class="content-center"> What we do?</h1>
-  </div>
-  <div class="container-fluid row">
-    <div class="col-6">
-    <h2>Lorem ipsum</h2>
-    </div>
-    <img src="./images/umbrella.jpg" class="d-inline img-fluid col-6" alt="">
-  </div>
-  <div class="container-fluid row">
-    <img src="./images/keys.jpg"  class="col-6" alt="">
-    <h2 class="img-fluid col-6">Lorem ipsum</h2>
   </div>
 
-</section>
 
-<section class="partners">
+  <section class="partners">
 
-  <h1>Partnerzy</h1>
-  <div class="container-fluid">
-    <div class="partners-logos row">
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
-      <div class="col-2 content-center">Jakieś logo</div>
+    <h1>Partnerzy</h1>
+    <div class="container-fluid">
+      <div class="partners-logos row">
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+        <div class="col-2 content-center">Jakieś logo</div>
+      </div>
+
+
     </div>
 
-
-  </div>
-
-</section>
+  </section>
 
 
-<footer class="container-fluid">
+  <footer class="container-fluid">
 
-</footer>
+  </footer>
 
-<script type="text/javascript" src="./lib/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="./lib/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="lib/slick.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.partners-logos').slick({
-            dots: true,
-            infinite: false,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            arrows: false,
-    });
-    });
-</script>
-<script src="./lib/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js"></script>
+  <script type="text/javascript" src="./lib/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="./lib/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/slick.min.js"></script>
+  <script type="text/javascript">
+      $(document).ready(function () {
+          $('.partners-logos').slick({
+              dots: true,
+              infinite: false,
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 5000,
+              arrows: false,
+          });
+      });
+  </script>
+  <script src="./js/video.js"></script>
 
 
-
+  <script src="./lib/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.js"></script>
 
 
 </body>
